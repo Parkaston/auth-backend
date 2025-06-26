@@ -76,7 +76,22 @@ Authorization: Bearer TU_TOKEN_AQUI
   "description": "Esta es mi descripción"
 }
 ```
+📬 Colección de Postman
+Se incluye una colección de Postman con pruebas básicas para verificar el funcionamiento de los endpoints de la API.
 
+🔗 Archivo disponible en: /postman/auth-collection.json
+
+La colección incluye:
+
+Endpoint	Método	Descripción
+/api/register	POST	Registra un nuevo usuario con username, email y password
+/api/login	POST	Inicia sesión y devuelve un token JWT
+/api/profile	GET	Devuelve los datos del perfil del usuario autenticado
+/api/profile	PUT	Permite actualizar el perfil del usuario
+
+💡 Nota: El token JWT obtenido en la ruta de login debe ser utilizado en los headers (Authorization: Bearer <token>) para acceder a los endpoints protegidos.
+
+Podés importar fácilmente esta colección a Postman para realizar pruebas y validar el correcto funcionamiento de la autenticación.
 ---
 
 ## 🛠️ Tecnologías Utilizadas
