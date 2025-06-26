@@ -76,7 +76,12 @@ Authorization: Bearer TU_TOKEN_AQUI
   "description": "Esta es mi descripción"
 }
 ```
-📬 Colección de Postman
+
+
+
+
+
+### 📬 Colección de Postman
 Se incluye una colección de Postman con pruebas básicas para verificar el funcionamiento de los endpoints de la API.
 
 🔗 Archivo disponible en: /postman/auth-collection.json
